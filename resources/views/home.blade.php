@@ -11,7 +11,7 @@
 
             @foreach ( $comics as $singleComic )
             <div class="col-2">
-                <div class="card">
+                <div class="card h-100">
                     <img src="{{$singleComic["thumb"]}}" class="card-img-top" alt="">
                     <div class="card-body">
                         <p class="card-text">{{strtoupper($singleComic["series"])}}</p>

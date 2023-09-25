@@ -1,2 +1,22 @@
 @use 'bootstrap';
 @use './partials/navbar';
+@use './partials/variables';
+
+main{
+    background-color: variables.$color-secondary-dark;
+
+    .card{
+        background-color: transparent;
+    
+        .card-img-top{
+            object-fit: cover;
+            object-position: top;
+            aspect-ratio: 1/1;
+    }
+        .card-body{
+            padding: 1rem 0;
+            color: white;
+        }
+    }
+
+}
