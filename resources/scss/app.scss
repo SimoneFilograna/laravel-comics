@@ -2,6 +2,7 @@
 @use './partials/navbar';
 @use './partials/variables';
 @use './partials/bluebar';
+@use './partials/footer';
 
 main{
     background-color: variables.$color-secondary-dark;
