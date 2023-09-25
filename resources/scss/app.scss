@@ -1,6 +1,7 @@
 @use 'bootstrap';
 @use './partials/navbar';
 @use './partials/variables';
+@use './partials/bluebar';
 
 main{
     background-color: variables.$color-secondary-dark;

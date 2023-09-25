@@ -1,3 +1,4 @@
+
 @extends("layouts.public");
 
 @section("content")
@@ -25,5 +26,7 @@
         <a class="btn btn-primary mt-5 mb-4 px-5 fw-bold bottom-button" href="#" role="button">LOAD MORE</a>
         </div>
     </div>
+    
+    @include("partials.merch")
 
 @endsection
