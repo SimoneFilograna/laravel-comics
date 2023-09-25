@@ -3,6 +3,7 @@
 @use './partials/variables';
 @use './partials/bluebar';
 @use './partials/footer';
+@use './partials/main-container-card';
 
 main{
     background-color: variables.$color-secondary-dark;
