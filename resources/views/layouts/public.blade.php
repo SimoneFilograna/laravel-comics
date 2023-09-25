@@ -8,6 +8,7 @@
     @vite(['resources/scss/app.scss', 'resources/js/aoo.js'])
 </head>
 <body>
+    @include("partials.header")
     
 </body>
 </html>
